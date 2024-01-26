@@ -21,4 +21,4 @@ You can set the value in any way you like.<br>
 ### Good luck!😘
 <hr>
 <br>
-Online demo link :
+Online demo link : https://saeedkahe.github.io/Slide/
