@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 150px;
+            height: 400px;
+            font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+            text-transform: capitalize;
+            text-align: justify;
+            position: relative;
+            margin: 100px auto;
+        }
+        .div{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 3em;
+            border-radius: 15px;
+            transform-origin: 10% 90%;
+            transition: 1s linear;
+
+
+        }
+        .div:nth-child(odd){
+            background-color: violet;
+        }
+        .div:nth-child(even){
+            background-color: tomato;
+        }
+        main:hover .div:nth-of-type(1){
+            transform: rotate(-40deg);
+        }
+        main:hover .div:nth-of-type(2){
+            transform: rotate(-30deg);
+        }
+        main:hover .div:nth-of-type(3){
+            transform: rotate(-20deg);
+        }
+        main:hover .div:nth-of-type(4){
+            transform: rotate(-10deg);
+        }
+        main:hover .div:nth-of-type(5){
+            transform: rotate(-1deg);
+        }
+        main:hover .div:nth-of-type(6){
+            transform: rotate(10deg);
+        }
+        main:hover .div:nth-of-type(7){
+            transform: rotate(20deg);
+        }
+        main:hover .div:nth-of-type(8){
+            transform: rotate(30deg);
+        }
+        main:hover .div:nth-of-type(9){
+            transform: rotate(40deg);
+        }
+        main:hover .div:nth-of-type(10){
+            transform: rotate(50deg);
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+    <div class="div">saeed kahe</div>
+</main>
+</body>
+</html>
